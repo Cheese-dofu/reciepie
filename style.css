@@ -1,0 +1,65 @@
+@keyframes leftToRight {
+    0% {
+        left: -15vw;
+    }
+    100% {
+        left: 100vw;
+    }
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container{
+    background-color: black;
+    display: grid;
+    grid-template-columns:  2fr 1fr 4fr 1fr;
+    grid-gap:10px;
+    height: 650px;
+}
+.item{
+    background-color: #ffe5ec;
+    color:#14021a;
+    font-size:30;
+    text-align:center;
+    font-family:"comic sans";
+
+}
+.cat1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: #c9e2ff;
+
+}
+.chicken6{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-color: #c9fff8;
+}
+.vampiresquid5{
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: #c5cbfa;
+}
+.dog2{
+    grid-row-start:3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: #e0baf5;
+}
+.swordfish3{
+    grid-row-start: 4;
+    grid-row-end: 2;
+    grid-column-start: 4;
+    grid-column-end: 3;
+    background-color: #baf5e1;
+}
+#nyan-cat {
+    animation: leftToRight linear 3s;
+}
