@@ -61,5 +61,6 @@ body {
     background-color: #baf5e1;
 }
 #nyan-cat {
+    height: 100px;
     animation: leftToRight linear 3s;
 }
