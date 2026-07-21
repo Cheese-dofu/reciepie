@@ -1,15 +1,4 @@
-@keyframes leftToRight {
-    0% {
-        left: -15vw;
-    }
-    100% {
-        left: 100vw;
-    }
-}
 
-body {
-    overflow-x: hidden;
-}
 
 .container{
     background-color: black;
@@ -26,7 +15,14 @@ body {
     font-family:"comic sans";
 
 }
-.cat1{
+.aboutme{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: #c9e2ff;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+.ingredients{
     grid-column-start: 1;
     grid-column-end: 3;
     background-color: #c9e2ff;
@@ -60,8 +56,4 @@ body {
     grid-column-start: 4;
     grid-column-end: 3;
     background-color: #baf5e1;
-}
-#nyan-cat {
-    height: 100px;
-    animation: leftToRight linear 3s;
 }
