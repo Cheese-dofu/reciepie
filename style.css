@@ -18,12 +18,12 @@
 .container {
     display: flex;
     width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
+    max-width: 100000px;
+    margin: 10f auto auto;
     border: 2px solid #333; /* The horizontal top of the T */
 }
 
-.item {
+.aboutme {
     flex: 1;
     padding: 100px;
 }
