@@ -15,24 +15,28 @@
     font-family:"comic sans";
 
 }
-.aboutme{
-    grid-column-start: 1;
-    grid-column-end: 3;
-    background-color: #c9e2ff;
-    grid-row-start: 1;
-    grid-row-end: 5;
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 2px solid #333; /* The horizontal top of the T */
 }
-.ingredients{
-    grid-column-start: 3;
-    grid-column-end: 3;
-    background-color: #c9e2ff;
-    grid-row-start: 1;
-    grid-row-end: 5;
+
+.item {
+    flex: 1;
+    padding: 20px;
 }
-.recepie{
-    grid-row-start: 3;
-    grid-row-end: 6;
-    grid-column-start: 1;
-    grid-column-end: 1;
-    background-color: #c9fff8;
+
+/* The vertical line of the T */
+.ingredients {
+    border-right: 2px solid #333; 
+}
+
+/* Optional styling for readability */
+
+
+ul {
+    margin: 0;
+    padding-left: 20px;
 }
