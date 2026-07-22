@@ -1,12 +1,4 @@
 
-
-.container{
-    background-color: black;
-    display: grid;
-    grid-template-columns:  2fr 1fr 4fr 1fr;
-    grid-gap:10px;
-    height: 650px;
-}
 .item{
     background-color: #ffe5ec;
     color:#14021a;
