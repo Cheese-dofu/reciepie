@@ -2,7 +2,7 @@
 .item{
     background-color: #ffe5ec;
     color:#14021a;
-    font-size:30;
+    font-size:50px;
     text-align:center;
     font-family:"comic sans";
 
@@ -12,24 +12,19 @@
     width: 100%;
     margin: 10f auto auto;
     border: 2px solid #333; /* The horizontal top of the T */
+     font-size:40pf;
 }
 
-.aboutme {
-    background-color: #ffe5ec;
-    color:#14021a;
-    font-size:30;
-    text-align:center;
-    font-family:"comic sans";
-    width: 25%;
 
-}
 /* The vertical line of the T */
 .ingredients {
     border-left: 2px solid #333; 
     border-right: 2px solid #333;
     width: 25%;
+     font: size 30px;;
 }
 
 .recepie {
     width: 50%;
+    font: size 30px;;
 }
